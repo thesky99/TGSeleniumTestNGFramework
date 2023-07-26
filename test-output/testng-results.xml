@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-26T16:34:11 IST" name="Suite" finished-at="2023-07-26T16:34:35 IST" duration-ms="23905">
+    <groups>
+    </groups>
+    <test started-at="2023-07-26T16:34:11 IST" name="Test" finished-at="2023-07-26T16:34:35 IST" duration-ms="23905">
+      <class name="TestCases.LoginTestCase">
+        <test-method is-config="true" signature="launchBrowserandURL()[pri:0, instance:TestCases.LoginTestCase@5e0e82ae]" started-at="2023-07-26T16:34:11 IST" name="launchBrowserandURL" finished-at="2023-07-26T16:34:15 IST" duration-ms="4385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserandURL -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginTestCase@5e0e82ae]" started-at="2023-07-26T16:34:15 IST" name="verifyLogin" data-provider="testData" finished-at="2023-07-26T16:34:16 IST" duration-ms="773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secure123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="launchBrowserandURL()[pri:0, instance:TestCases.LoginTestCase@5e0e82ae]" started-at="2023-07-26T16:34:16 IST" name="launchBrowserandURL" finished-at="2023-07-26T16:34:19 IST" duration-ms="2614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserandURL -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginTestCase@5e0e82ae]" started-at="2023-07-26T16:34:19 IST" name="verifyLogin" data-provider="testData" finished-at="2023-07-26T16:34:20 IST" duration-ms="1297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secure123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="launchBrowserandURL()[pri:0, instance:TestCases.LoginTestCase@5e0e82ae]" started-at="2023-07-26T16:34:20 IST" name="launchBrowserandURL" finished-at="2023-07-26T16:34:23 IST" duration-ms="2709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserandURL -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginTestCase@5e0e82ae]" started-at="2023-07-26T16:34:23 IST" name="verifyLogin" data-provider="testData" finished-at="2023-07-26T16:34:23 IST" duration-ms="664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secure123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- TestCases.LoginTestCase -->
+      <class name="TestCases.signupTestCases">
+        <test-method is-config="true" signature="launchBrowserandURL()[pri:0, instance:TestCases.signupTestCases@1f2586d6]" started-at="2023-07-26T16:34:23 IST" name="launchBrowserandURL" finished-at="2023-07-26T16:34:26 IST" duration-ms="2750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserandURL -->
+        <test-method signature="verifySignup()[pri:0, instance:TestCases.signupTestCases@1f2586d6]" started-at="2023-07-26T16:34:26 IST" name="verifySignup" finished-at="2023-07-26T16:34:35 IST" duration-ms="8635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignup -->
+      </class> <!-- TestCases.signupTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
